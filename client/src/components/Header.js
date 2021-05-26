@@ -17,9 +17,8 @@ class Header extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
-                    <Nav.Link href="/">Homepage</Nav.Link>
+                    <Nav.Link href="/">Homepage- Generate new public view</Nav.Link>
                     <Nav.Link href="/welcomeInstance">My Running Instances</Nav.Link>
-                    <Nav.Link href="/welcomemodel">My Process Models </Nav.Link>
                   </Nav>
 
                   <Nav >

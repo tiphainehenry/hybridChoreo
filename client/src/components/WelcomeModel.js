@@ -15,11 +15,6 @@ class WelcomeModel extends React.Component {
       <Header />
       <Container fluid >
         <Row >
-          <Col sm={2} >
-            <SidebarModel />
-          </Col>
-          <Col >
-
             <div class="bg-green pt-5 pb-3">
 
               <div class='container'>
@@ -41,7 +36,6 @@ class WelcomeModel extends React.Component {
                 <div className="well"></div>
               </div>
             </div>
-          </Col>
         </Row>
       </Container>
     </div>;

@@ -231,39 +231,13 @@ class LoadToBC extends React.Component {
       <Button onClick= {this.handleCreateWkf}>{this.state.wkState}</Button>
      <br/>
      <br/>
-                  <Button onClick={this.getWKCreationReceipt}> Get Transaction Receipt </Button>
 
                   <Table bordered responsive>
-                    <thead>
-                      <tr>
-                        <th>Tx Receipt Category</th>
-                        <th>Values</th>
-                      </tr>
-                    </thead>
 
                     <tbody>
                       <tr>
                         <td>IPFS Hash # stored on Eth Contract</td>
                         <td>{this.props.ipfsHash}</td>
-                      </tr>
-                      <tr>
-                        <td>Ethereum Contract Address</td>
-                        <td>{this.state.ethAddress}</td>
-                      </tr>
-
-                      <tr>
-                        <td>Tx Hash # </td>
-                        <td>{this.state.transactionHash}</td>
-                      </tr>
-
-                      <tr>
-                        <td>Block Number # </td>
-                        <td>{this.state.blockNumber}</td>
-                      </tr>
-
-                      <tr>
-                        <td>Gas Used</td>
-                        <td>{this.state.gasUsed}</td>
                       </tr>
                     </tbody>
                   </Table>

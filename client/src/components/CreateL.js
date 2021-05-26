@@ -175,9 +175,6 @@ class CreateL extends React.Component {
       <Header />
       <Container fluid >
         <Row >
-          <Col sm={2} style={{ 'padding-left': 0, 'padding-right': 0 }}>
-            <SidebarModel />
-          </Col>
           <Col style={{ 'padding-left': 0, 'padding-right': 0 }}>
             <div class="bg-green pt-5 pb-3">
               <div class="container">

@@ -23,7 +23,7 @@ import CreationDeck from './components/CreationDeck';
 const App = () => (
   <BrowserRouter>
       <div className="sans-serif">
-      <Route exact path="/" component={Homepage} />
+      <Route exact path="/" component={CreateL} />
       <Route exact path="/welcomeinstance" component={WelcomeInstance} />
       <Route exact path="/welcomemodel" component={WelcomeModel} />
       <Route exact path="/edit" component={Edit} />
