@@ -125,7 +125,7 @@ class LoadToBC extends React.Component {
       this.setState({ web3, accounts, contract: instance });
 
       // Checking if contract already populated
-      this.setState({ wkState: '2./ Uploaded' })
+      //this.setState({ wkState: '2./ Uploaded' })
 
     } catch (error) {
       alert(
